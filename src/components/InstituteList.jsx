@@ -41,7 +41,7 @@ export const InstituteList = () => {
                 <img
                   key={`listItemImage-${i}`}
                   src={getFlags2(countryName)}
-                  alt={`bandera de ${countryName}`}
+                  alt={`flag of ${countryName}`}
                   style={{ width: 50, borderRadius: "4px" }}
                 />
               </ListItemIcon>

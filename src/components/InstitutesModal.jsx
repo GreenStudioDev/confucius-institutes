@@ -54,9 +54,9 @@ export const InstitutesModal = () => {
   return (
     <>
       <Button onClick={handleOpen} sx={buttonStyle}>
-        Acerca de
+        About
         <br />
-        los Institutos
+        Institutes
       </Button>
       <Modal
         open={open}

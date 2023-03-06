@@ -23,7 +23,7 @@ export const MapView = () => {
 
     const map = new Map({
       container: mapContainer.current,
-      style: "mapbox://styles/fabchinalatam/cl9yc1y04001014mfo3aglmlr",
+      style: "mapbox://styles/fabchinalatam/cleof4g1e005t01mzl5rijs8a",
       center: [-62.546, -33.127],
       zoom: mapZoom(),
       pitch: 63, // pitch in degrees
@@ -65,7 +65,7 @@ export const MapView = () => {
                   <span>${e.features[0].properties.place}</span>
                   <img
                 src=${getFlags2(e.features[0].properties.country_name)}
-                alt=${`bandera de ${e.features[0].properties.country_name}`}
+                alt=${`flag of ${e.features[0].properties.country_name}`}
                 class = "popup-flag"
               />
                   <hr/>
@@ -76,7 +76,7 @@ export const MapView = () => {
                       : "popup-box-item"
                   }>
                 <a href = ${e.features[0].properties.website} target = "blank">
-                  <div>Visitar Website</div>
+                  <div>Visit Website</div>
                 </a>
                 <hr/>
                 </div>
@@ -95,7 +95,7 @@ export const MapView = () => {
                     ? "popup-box-item-hide"
                     : "popup-box-item"
                 }>
-                  <div class="title">Teléfono</div>
+                  <div class="title">Phone</div>
                   <div>${e.features[0].properties.phone}</div>
                   <hr/>
                   </div>
@@ -104,7 +104,7 @@ export const MapView = () => {
                       ? "popup-box-item-hide"
                       : "popup-box-item"
                   }>
-                  <div class="title">Director Chino</div>
+                  <div class="title">Chinese Director</div>
                   <div>${e.features[0].properties.chinese_director}</div>
                   <hr/>
                   </div>
@@ -113,7 +113,7 @@ export const MapView = () => {
                       ? "popup-box-item-hide"
                       : "popup-box-item"
                   }>
-                  <div class="title">Email del director Chino</div>
+                  <div class="title">Chinese Director Email</div>
                   <div>${e.features[0].properties.chinese_director_email}</div>
                   <hr/>
                   </div>
@@ -122,7 +122,7 @@ export const MapView = () => {
                       ? "popup-box-item-hide"
                       : "popup-box-item"
                   }>
-                  <div class="title">Perfil del director Chino</div>
+                  <div class="title">Chinese Director Profil</div>
                   <div>${
                     e.features[0].properties.chinese_director_profile
                   }</div>
@@ -133,7 +133,7 @@ export const MapView = () => {
                       ? "popup-box-item-hide"
                       : "popup-box-item"
                   }>
-                  <div class="title">Cooperación</div>
+                  <div class="title">Coperation</div>
                   <div>${e.features[0].properties.cooperation}</div>
                   <hr/>
                   </div>
@@ -142,7 +142,7 @@ export const MapView = () => {
                       ? "popup-box-item-hide"
                       : "popup-box-item"
                   }>
-                  <div class="title">Director local</div>
+                  <div class="title">local Director</div>
                   <div>${e.features[0].properties.local_director}</div>
                   <hr/>
                 </div>
@@ -151,7 +151,7 @@ export const MapView = () => {
                     ? "popup-box-item-hide"
                     : "popup-box-item"
                 }>
-                  <div class="title">Email del Director local</div>
+                  <div class="title">local Director Email</div>
                   <div>${e.features[0].properties.local_director_email}</div>
                   <hr/>
                 </div>
@@ -160,7 +160,7 @@ export const MapView = () => {
                     ? "popup-box-item-hide"
                     : "popup-box-item"
                 }>
-                  <div class="title">Perfil del Director local</div>
+                  <div class="title">local Director Profil</div>
                   <div>${e.features[0].properties.local_director_profile}</div>
                   <hr/>
                 </div>
@@ -169,7 +169,7 @@ export const MapView = () => {
                     ? "popup-box-item-hide"
                     : "popup-box-item"
                 }>
-                  <div class="title">Inauguración</div>
+                  <div class="title">Inauguration Date</div>
                   <div>${e.features[0].properties.year}</div>
                   <hr/>
                 </div>

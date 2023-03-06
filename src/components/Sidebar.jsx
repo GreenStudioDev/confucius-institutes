@@ -7,7 +7,7 @@ export const Sidebar = () => {
     <>
       <div className="sidebar">
         <div className="heading">
-          <h2>Institutos Confucio en América Latina y el Caribe</h2>
+          <h2>Confucius Institutes in Latin America and the Caribbean</h2>
         </div>
         <div className="listings">
         <InstituteList/>

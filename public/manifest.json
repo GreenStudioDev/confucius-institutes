@@ -1,7 +1,7 @@
 {
   "short_name": "CI",
-  "name": "Institutos Confucio",
-  "start_url": "/institutos-confucio-alc",
+  "name": "Confucius Institutes",
+  "start_url": "/confucius-institutes-alc",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

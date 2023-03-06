@@ -21,5 +21,5 @@ let mapZoom = ( ) => {
     });
   };
 
-  return <button className="home-button" onClick={onClick}>Volver</button>;
+  return <button className="home-button" onClick={onClick}>Return</button>;
 };

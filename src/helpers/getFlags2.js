@@ -4,21 +4,21 @@ export function getFlags2(countryName) {
     countryNameEng = "sr";
   } else if (countryNameEng === "Bahamas") {
     countryNameEng = "bs";
-  } else if (countryNameEng === "Brasil") {
+  } else if (countryNameEng === "Brazil") {
     countryNameEng = "br";
-  } else if (countryNameEng === "Granada") {
+  } else if (countryNameEng === "Grenada") {
     countryNameEng = "gd";
-  } else if (countryNameEng === "Haití") {
+  } else if (countryNameEng === "Haiti") {
     countryNameEng = "ht";
-  } else if (countryNameEng === "México") {
+  } else if (countryNameEng === "Mexico") {
     countryNameEng = "mx";
-  } else if (countryNameEng === "Trinidad%20y%20Tobago") {
+  } else if (countryNameEng === "Trinidad%20and%20Tobago") {
     countryNameEng = "tt";
-  } else if (countryNameEng === "Panamá") {
+  } else if (countryNameEng === "Panama") {
     countryNameEng = "pa";
-  } else if (countryNameEng === "Perú") {
+  } else if (countryNameEng === "Peru") {
     countryNameEng = "pe";
-  } else if (countryNameEng === "República%20Dominicana") {
+  } else if (countryNameEng === "Dominican%20Republic") {
     countryNameEng = "do";
   } else if (countryNameEng === "Argentina") {
     countryNameEng = "ar";
